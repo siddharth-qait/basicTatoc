@@ -22,6 +22,7 @@ public class tatoc {
 		else
 			System.out.println("Not a correct page");
 
+		Status
 		driver.findElement(By.cssSelector("div[class='redbox']")).click();
 		driver.navigate().back();
 		driver.findElement(By.cssSelector("div[class='greenbox']")).click();
